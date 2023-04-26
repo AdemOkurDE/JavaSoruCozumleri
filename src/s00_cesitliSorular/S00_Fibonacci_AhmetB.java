@@ -1,4 +1,4 @@
-package s01_javaGiris;
+package s00_cesitliSorular;
 
 import java.util.LinkedList;
 import java.util.Scanner;
