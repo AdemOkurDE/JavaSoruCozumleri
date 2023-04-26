@@ -12,10 +12,10 @@ public class S14_DataCasting_Soru4 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen iki double sayi giriniz : ");
-        double dbSayi1 = scanner.nextInt();
-        double dbSayi2 = scanner.nextInt();
+        double dbSayi1 = scanner.nextDouble();
+        double dbSayi2 = scanner.nextDouble();
 
-        System.out.println("Double bolme sonucu : "+ dbSayi1/dbSayi2 );
+        System.out.println("Double bolme sonucu : "+ (dbSayi1/dbSayi2) );
 
         System.out.println("Tamsayi  : "+(int) (dbSayi1/dbSayi2));
 

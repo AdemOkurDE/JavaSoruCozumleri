@@ -1,0 +1,22 @@
+package s02_ifElseStatements;
+
+import java.util.Scanner;
+
+public class S24_If_ElseStatements_Soru4 {
+    public static void main(String[] args) {
+
+        /*
+            Soru 4- Kullanicidan bir karakter girmesini isteyin, girilen karakterin buyuk harf
+                    olup olmadigini yazdirin.
+         */
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Lutfen bir karakter giriniz : ");
+        char karakter = scanner.next().charAt(0);
+        if (karakter>='A' && karakter<='Z'){
+            System.out.println("Girdiginiz karakter Buyuk harftir");
+        }else {
+            System.out.println("Girdiginiz karakter Buyuk harf degildir");
+        }
+    }
+}

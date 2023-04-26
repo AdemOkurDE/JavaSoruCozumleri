@@ -1,6 +1,6 @@
 package s01_javaGiris;
 
-public class S11_OrtalamaAlma_sf46_soru1 {
+public class S11_DataCasting_sf46_soru1 {
     public static void main(String[] args) {
 
         //Soru 1- Int olarak verilen 3 degerin ortalamasini double olarak yazdiran bir kod
