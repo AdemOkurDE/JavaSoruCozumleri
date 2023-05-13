@@ -1,6 +1,8 @@
 package s03_stringManipulations;
 
-public class S06_StringManipulations000 {
+import java.util.Scanner;
+
+public class S06_StringManipulations {
     public static void main(String[] args) {
         /*
             Soru 3 : Kullanicidan alinan metindeki istenmeyen rakam ve ozel karakterleri silip,
@@ -9,6 +11,12 @@ public class S06_StringManipulations000 {
                     output : Java ogrenmek ne guzel.
          */
 
-
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Lutfen bir metin giriniz : ");
+        String str=scanner.nextLine();
+        str=str.replaceAll("\\d","");
+        str=str.replaceAll("\\W","");
+        str=str.substring(0,1).toUpperCase()+str.substring(1);
+        System.out.println(str);
     }
 }
